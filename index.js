@@ -16,7 +16,7 @@ const nameColIndexInCSV = 1;   // based on the data in your csv file
 const sourceCSVFile = path.join(__dirname, './files/test.csv');
 const outCSVFile = path.join(__dirname, './files/error.csv');
 const emailTemplate = 'registration-email.html';    // will be used when sending emails
-const senderEmailAddress = 'admin@mydomain.com';    // this will show up in the target user's inbox as who sent the email
+const senderEmailAddress = 'danhow17@gmail.com';    // this will show up in the target user's inbox as who sent the email
 const emailVars = {
     name: 'My Event Name',
     date: '03-30-2020',

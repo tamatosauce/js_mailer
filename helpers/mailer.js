@@ -5,8 +5,8 @@
 const nodemailer = require('nodemailer');
 const fs = require('fs');
 
-const EMAIL_USER ='<your_email>';
-const EMAIL_PASS ='<your_password>';
+const EMAIL_USER ='';
+const EMAIL_PASS ='';
 
 /** smtp configuration for nodemailer */
 var transporter = nodemailer.createTransport({
